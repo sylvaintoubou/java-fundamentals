@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>java-fundamentals</name>
+=======
+	<name>Demo</name>
+>>>>>>> 24c698a6e3e422e10c207792cd7621f8aeacc8d9
 	<comment></comment>
 	<projects>
 	</projects>

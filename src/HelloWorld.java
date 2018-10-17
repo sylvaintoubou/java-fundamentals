@@ -9,6 +9,7 @@ public class HelloWorld {
           static HelloWorld president;
           public static int k = 502;
           static float a,b,c,d=a=b=c=7.5f;
+	
 	public static void main(String[] args) {
 		System.out.println("Akah");
 		System.out.println("Hello guys! My name is mister TCHOUMI");
@@ -38,6 +39,10 @@ public class HelloWorld {
         System.out.println(k);
         Bonjour right = new Bonjour();
         right.changely();
+		System.out.println("Ndeme yvan rodrigue marie");
+		
+		System.out.println(age);
+
 	}
     	
     
