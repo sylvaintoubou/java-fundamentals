@@ -1,0 +1,54 @@
+/**
+ * 
+ */
+/**
+ * @author Mas73rs
+ *
+ */
+
+
+
+package loopAssignments;
+
+import java.util.Scanner;
+
+public class Vowel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char userInput;
+		int cont;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Type a key : ");
+		userInput = input.nextLine().charAt(0);
+		do {
+			switch (userInput) {
+			case 'a': System.out.println(userInput+"is a vowel !");
+				break;
+			
+			case 'e': System.out.println(userInput+"is a vowel !");
+				break;
+				
+			case 'i': System.out.println(userInput+"is a vowel !");
+				break;
+			
+			case 'o': System.out.println(userInput+"is a vowel !");
+				break;
+			
+			case 'u': System.out.println(userInput+"is a vowel !");
+				break;
+				
+			default : System.out.println(userInput+"is not a vowel !");
+				break;
+				
+			}
+
+			
+		}while (cont == 1);
+
+		
+	}
+
+}

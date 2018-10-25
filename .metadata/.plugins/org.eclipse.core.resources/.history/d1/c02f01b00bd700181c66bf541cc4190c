@@ -1,0 +1,90 @@
+/**
+ * 
+ */
+/**
+ * @author Mas73rs
+ *
+ */
+
+
+
+package loopAssignments;
+
+import java.util.Scanner;
+
+
+
+
+public class Calculator {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+		int start;
+		int operation;
+		int numb1;
+		int numb2;
+		int limit;
+		int cont;
+		String exit = "Existing";
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Press to 1 start : ");
+		start = input.nextInt();
+		if (start == 1) {
+			
+			System.out.println("\tWelcome to Calculat0r!!");
+			System.out.println("\n\nPress 1 to continue : ");
+			cont = input.nextInt();
+		
+			while(cont == 1) {
+				
+				System.out.println("\nWhich operation would you want to access ? ");
+				System.out.println("1. Addition \n2. Multiplication \n3. Division \n4. Substraction \n5. Exponentiation");
+				
+				operation = input.nextInt();
+				switch (operation) {
+					case 1: {
+						System.out.println("\tADDITION.");
+						System.out.println("Choose a your first number : ");
+						numb1 = input.nextInt();
+						System.out.println("Choose your second number  : ");
+						numb2 = input.nextInt();
+						System.out.println(numb1+" + "+numb2+" = " +(numb1+numb2));
+						
+					};
+
+					
+					case 2: ;
+					case 3: ;
+					case 4: ;
+					case 5: ;
+
+					
+				}
+				System.out.println("Do you wish another operation?");
+				cont = input.nextInt();
+
+			}
+			
+			for (;cont != 1 && cont != 0;) {
+				System.out.println("Press 1 to continue : \n(But if you wish to exit press 0!)");
+				cont = input.nextInt();
+			};
+						
+			
+		}
+		else if (start == 0) {
+			System.out.println("Exiting!!!");
+		}
+		else{
+			System.out.println("!!!!Unknow VALUE!!!!\n1 to continue 0 to exit!");
+			start = input.nextInt();
+		};
+		
+	}
+
+}
