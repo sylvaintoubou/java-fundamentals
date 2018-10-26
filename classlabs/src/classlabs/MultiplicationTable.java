@@ -1,8 +1,15 @@
 package classlabs;
 
 import java.util.Scanner;
+import static java.lang.Math.*;
 
 public class MultiplicationTable {
+	
+	String title = "You are now in Multiplication Table";
+	
+	public void title() {
+		System.out.println(title);
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -31,6 +38,10 @@ public class MultiplicationTable {
 			
 		// User exits the program
 		if (runProgram == 0) System.out.println("Exiting the program!");
+		
+		System.out.println("\n\n");
+		System.out.println("Square root of 64 is: "+sqrt(64));
+		System.out.println("PI is "+PI);
 
 	}
 
