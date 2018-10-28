@@ -1,3 +1,13 @@
+/**
+ * 
+ * Lesson 6
+ * An assignment on Classes, Objects and Methods
+ */
+/**
+ * @author mas73rs
+ *
+ */
+
 package lesson6Assignments;
 
 public class User {
@@ -20,10 +30,10 @@ public class User {
 	} 
 	
 	public User() {
-		name = "Osaka";
-		age = 30;
-		height = 1.78f;
-		gender = "Male";
+		this.name = "Osaka";
+		this.age = 30;
+		this.height = 1.78f;
+		this.gender = "Male";
 		
 	}
 	
