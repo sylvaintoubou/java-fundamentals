@@ -1,57 +1,35 @@
 package classlabs;
 
-import java.util.Scanner;
-
 public class User {
 	
-	static String email;
-	static String password;
-	static int passLenght;
-	static int atIndex;
-	static Scanner scanEmail = new Scanner(System.in);
-	static Scanner scanPass = new Scanner(System.in);
+	 String email;
+	 String password;
+	 String errorMessage = "";
 	
-	public static void setPassword(){
-		do {
-			System.out.println("Please enter your password : ");
-			password = scanPass.nextLine();
-			passLenght = password.length();
+	public void setPassword(String password){
+		int length = password.length();
+		if(length >= 6 || length <= 10 ) {
+			this.password = password;
+		}else {
+			errorMessage +=  "Wrong password. Password must have 6 characters or up to 10 characters.";
 		}
-		while (passLenght < 6 || passLenght > 10 );
-		
 		
 	}
 	
-	public static void getPassword(){
+	public void getPassword(){
 		System.out.println("Your password is : "+password);
 	}
 	
-	public static void setEmail(){
-		
-		do {
-			System.out.println("Please enter your Email : ");
-			email = scanEmail.nextLine();
-			atIndex = email.indexOf('@');
-		}
-		while (atIndex < 0);
-		
+	public void setEmail(String email){
+		if(email.matches("[a-zA-Z@a-zA-Z]+.[a-zA-Z]+")){
+				this.email = email;
+		}else {
+				errorMessage += " Invalid email. Email must be a valid email.";
+			}
 	}
 	
-	public static void getEmail(){
+	public void getEmail(){
 		System.out.println("Your Email is : "+email);
-	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		// Setting user's infos
-		setEmail();
-		setPassword();
-		
-		// Printing user's infos
-		getEmail();
-		getPassword();
-		
 	}
 
 }
