@@ -8,10 +8,14 @@ public class User {
 		System.out.println("enter your password");
 		String password= input.nextLine();
 		System.out.println(" " + setPassword(password));
+		System.out.println("your password is "+ password);
 		System.out.println("enter your email");
 		String email= input.nextLine();
-			
+		System.out.println(setEmail(email));
+		System.out.println("enteremail is " + email);
+		
 	}
+	
 	private String email;
 	private int Password;
 	
@@ -24,16 +28,27 @@ public class User {
 		return password;
 		
 	}
-	public int getPassword() {
+	
+	
+	public int getPassword() 
+	
+	{
 		return Password;
 		
 	}
-	public void setEmail(String email) {
-		if(!email.endsWith(".com")) {
-			System.out.println("Your Email is not good ");
+	public static String setEmail(String email) 
+	
+	{
+		if(email.endsWith(".com")) {
+			
+			System.out.println(" not good email");
 		}
+		return email;
 	}
-	public String getEmail() {
+	
+	public String getEmail() 
+	
+	{
 		return email;
 	}
 	
