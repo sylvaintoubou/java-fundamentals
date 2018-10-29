@@ -97,6 +97,7 @@ public class Cat { // Class definition or template
 		System.out.println("\nEquals: "+myCat.equals(cat1));
 		
 		/*
+		 * 
 		try {
 			Cat clone = (Cat) myCat.clone();
 			System.out.println("\nEquals: "+myCat.equals(clone));
