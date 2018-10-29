@@ -1,8 +1,5 @@
-package coursework_1;
-
 
 //Program to output ID card infos
-
 public class Identification {
 	
 //Defining the variables
@@ -77,7 +74,7 @@ public class Identification {
 		System.out.print("Date of expiration :\t");
 		System.out.println(dateOfExpiration);
 		
-		
+		System.out.println("\nHello! ".format("WHAT IS THE ISSUE NOW? %s Which number %d is it?", "Guys", 50));
 		
 
 	}
