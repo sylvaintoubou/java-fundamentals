@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 <<<<<<< HEAD
+	<name>operators</name>
+=======
+<<<<<<< HEAD
 	<name>java-fundamentals</name>
 =======
 	<name>Demo</name>
 >>>>>>> 24c698a6e3e422e10c207792cd7621f8aeacc8d9
+>>>>>>> fb1894e0d2cc66a819d0a2bb78dbe38e0170f896
 	<comment></comment>
 	<projects>
 	</projects>

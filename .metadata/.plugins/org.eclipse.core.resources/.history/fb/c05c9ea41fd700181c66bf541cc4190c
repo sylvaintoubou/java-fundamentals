@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+/**
+ * @author Mas73rs
+ *
+ */
+
+
+
+
+package loopAssignments;
+
+import java.util.Scanner;
+
+public class AddingNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		
+		//calculating sum of numbers between 0 and a given number
+			
+
+		int min;
+		int max;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter your min : ");
+		min = input.nextInt();
+		System.out.println("Enter your max : ");
+		max = input.nextInt();
+		
+		for(;min <= max;) {
+
+			//int sum = (min +=(++min));
+			System.out.println("Sum of numbers between "+min+" and "+max+" is "+(min +=(++min)));
+			break;
+		}
+
+	}
+
+}
