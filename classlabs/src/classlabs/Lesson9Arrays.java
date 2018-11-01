@@ -2,7 +2,7 @@ package classlabs;
 
 import java.util.Arrays;
 
-public class Lesson8Arrays {
+public class Lesson9Arrays {
 	
 	static int [] numbers = {1,2,3,4,5,6};
 	
