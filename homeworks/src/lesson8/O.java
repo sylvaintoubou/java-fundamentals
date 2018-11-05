@@ -47,7 +47,6 @@ public class O {
 						System.out.println("\nGood!!!\n\n");
 						correct = true;
 						correctQuestions++ ;
-						//System.out.println(correct);
 					}
 						break;
 					default: {
@@ -67,7 +66,6 @@ public class O {
 						System.out.println("That one was simple but a bit tricky.\nWell Done!!!\n\n");
 						correct = true;
 						correctQuestions++ ;
-						
 					}
 						break;
 					default: {
@@ -145,6 +143,7 @@ public class O {
 				
 		
 	}
+	
 	public static void questionScores() {
 		
 		switch(questionNo) {
@@ -176,6 +175,7 @@ public class O {
 				
 		}
 	}
+	
 	public static int userScore() {
 		
 		if(correct == true) {
@@ -189,12 +189,14 @@ public class O {
 			return totalScore;
 		
 	}
+	
 	public static float moneyEarned() {
 		
 		prizeMoney = totalScore*correctQuestions*amount;
 		
 			return prizeMoney;
 	}
+	
 	public static float amountPerScore() {
 		
 		amount = (totalScore/5)*10000;
