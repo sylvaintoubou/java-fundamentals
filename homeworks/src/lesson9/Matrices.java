@@ -10,8 +10,6 @@
 
 package lesson9;
 
-import java.util.Arrays;
-
 public class Matrices {
 	
 	static int[][] matrice1 = {{1,3,7},{3,0,-1}};
