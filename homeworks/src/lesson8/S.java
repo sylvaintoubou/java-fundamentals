@@ -132,6 +132,7 @@ public class S {
 				
 		
 	}
+	
 	public static void questionScores() {
 		
 		switch(questionNo) {
@@ -163,6 +164,7 @@ public class S {
 				
 		}
 	}
+	
 	public static int userScore() {
 		
 		if(correct == true) {
@@ -176,6 +178,7 @@ public class S {
 			return totalScore;
 		
 	}
+	
 	public static float moneyEarned() {
 		
 		prizeMoney = totalScore*correctQuestions*amount;

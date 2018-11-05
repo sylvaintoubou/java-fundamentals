@@ -14,25 +14,38 @@ import java.util.Arrays;
 
 public class Matrices {
 	
+	
 	static int[][] matrice1 = {{1,3,7},{3,0,-1}};
 	static int[][] matrice2 = {{1},{2},{3}};
-	static int[][] matrice3;
+	static int[][] matrice3 ;
 	
+	public static int[][] result(int[][] x, int[][] y) {
+		
+		matrice3 = new int[x.length][x.length];
+		int sum = 0;
+		
+		if(x.length > 0 && y.length > 0) {
+			if(x[0].length >= y.length) {
+				
+				for(int i = 0; i < x.length; i++) {
+					for(int j = 0; j < y.length; j++) {
+						sum += x[i][j]*y[j][0];
+						
+					}
+					matrice3[i][0] = sum;
+					System.out.println(sum);
+					sum = 0;
+				}
+			}
+		}
+		
+			return matrice3;
+	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		for (int i = 0; i < 3; i++) {
-			
-	         for (int j = 0; j < 3; j++) {
-	         
-	         	for (int k = 0; k < 3; k++) {
-	         		matrice3[i][j] += matrice1[i][k] * matrice2[k][j];
-		        }
-	         	System.out.print(matrice3[i][j] + " ");
-	         }
-	         System.out.println();
-		}
+		result(matrice1,matrice2);
 
 	}
 	
