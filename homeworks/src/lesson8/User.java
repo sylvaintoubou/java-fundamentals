@@ -9,6 +9,7 @@ public class User {
 	int totalScore;
 	float prizeMoney;
 	short correctQuestions;
+	long start = System.currentTimeMillis();
 
 	
 	
