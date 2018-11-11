@@ -26,9 +26,7 @@ public class CardGame {
 			deckOfCards[i++] = new Card(faces[j], symbols[k]) ;
 		}
 		*/
-		
-		
-		/*
+
 		// Print every single card of the deck
 		System.out.println("Ordered deck of cards");
 		System.out.println("......................\n");
@@ -44,7 +42,7 @@ public class CardGame {
 		for(Card c :deckOfCards) {
 			System.out.println(c);
 		}
-		*/
+	
 		
 		
 		System.out.println(printDeck());
