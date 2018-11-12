@@ -77,14 +77,14 @@ public class CardGame {
 		return listOfCards;
 	}
 	
-	
+	/*
 	public static List shuffledDeck() {
 		
 		List<Card> shuffledCards = new ArrayList<>();
 		shuffledCards = Collections.shuffle(Deck());
 		return 
 	}
-	
+	*/
 
 
 }
