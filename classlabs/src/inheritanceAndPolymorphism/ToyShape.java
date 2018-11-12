@@ -2,42 +2,51 @@ package inheritanceAndPolymorphism;
 
 import java.util.Scanner;
 
-public class ToyShape extends Shape{
+public class ToyShape {
 	
-	private int userInput;
-	Scanner scInt = new Scanner(System.in);
+	Shape userShape;
 	
-	public ToyShape(String name, int width) {
-		super(name, width);
+	
+	public ToyShape() {
+		
 		
 	}
 	
-	public Shape getToyShape() {
+	public Shape getToyShape(int userInput) {
 		
-		userInput = scInt.nextInt();
+		
 		
 		switch (userInput) {
 			case 1:
-				
+					userShape = new Triangle("Triangle", 12, 5, 0);
 				break;
 	
 			case 2:
-				
+					userShape = new Square("Square", 6, 6, 0);
 				break;
 				
 			case 3:
-		
+					userShape = new Cube("Cube", 6, 6, 0, 10);
 				break;
 		
 			default:
-				
+				userShape = new Cylinder("Cylinder", 0, 0, 3, 10);
 				break;
 		}
 		
-		return Shape;
+		return userShape;
 	}
 	
-	public void setSize(Shape) {
+
+	public void getSize(Shape userShape) {
+		
+		if (userShape instanceof TwoDimensionalShape) {
+			System.out.printf("Area of %s is : %f ", userShape.name, ((TwoDimensionalShape)userShape).calculateArea());
+		}
+		else if (userShape instanceof ThreeDimensionalShape) {
+			System.out.printf("Area of %s is : %f ", userShape.name, ((ThreeDimensionalShape)userShape).calculateArea());
+		}
 		
 	}
+	
 }

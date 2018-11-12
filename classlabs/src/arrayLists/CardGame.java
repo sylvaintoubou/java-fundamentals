@@ -27,6 +27,7 @@ public class CardGame {
 		}
 		*/
 
+		/*
 		// Print every single card of the deck
 		System.out.println("Ordered deck of cards");
 		System.out.println("......................\n");
@@ -76,6 +77,7 @@ public class CardGame {
 		//System.out.println(listofCards);
 		return listOfCards;
 	}
+	*/
 	
 	/*
 	public static List shuffledDeck() {
