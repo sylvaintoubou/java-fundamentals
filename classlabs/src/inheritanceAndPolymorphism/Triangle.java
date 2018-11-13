@@ -1,16 +1,16 @@
 package inheritanceAndPolymorphism;
 
-public class Triangle extends TwoDimensionalShape implements Area{
+public class Triangle extends TwoDimensionalShape {
 	
 	
-	public Triangle(String name, int height, int width) {
-		super(name, height, width);
+	public Triangle(String name, int width, int lenght, int radius) {
+		super(name, width, lenght, radius);
 		
 	}
 
 	@Override
 	public float calculateArea() {
-		return (height*width)/2;
+		return (lenght*width)/2;
 	}
 
 

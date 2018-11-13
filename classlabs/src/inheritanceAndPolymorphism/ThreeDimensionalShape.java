@@ -1,14 +1,19 @@
 package inheritanceAndPolymorphism;
 
-public class ThreeDimensionalShape extends Shape{
+public class ThreeDimensionalShape extends TwoDimensionalShape implements Volume{
 	
-	int radius, diameter = radius * 2, height;
+	int height;
 
-	public ThreeDimensionalShape(String name, int width, int height,int radius) {
-		super(name, width);
-		this.radius = radius;
+	public ThreeDimensionalShape(String name, int width,int lenght, int radius, int height) {
+		super(name, width, lenght, radius);
 		this.height = height;
 	
+	}
+
+	@Override
+	public float calculateVolume() {
+		// TODO Auto-generated method stub
+		return lenght * width * height;
 	}
 
 }
