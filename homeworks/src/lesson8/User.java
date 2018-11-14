@@ -5,7 +5,7 @@ public class User {
 	static String username, userAnswer;
 	static int totalScore;
 	static float prizeMoney;
-	static int correctQuestions = 0;
+	static int correctQuestions = 0, questionsAttempted = 0;
 	static float amount;
 
 
@@ -13,6 +13,14 @@ public class User {
 		
 	}
 	
+	public static int getQuestionsAttempted() {
+		return questionsAttempted;
+	}
+
+
+	public static void setQuestionsAttempted() {
+		User.questionsAttempted = questionsAttempted + 1;
+	}
 	
 	public static float getAmount() {
 		return amount;

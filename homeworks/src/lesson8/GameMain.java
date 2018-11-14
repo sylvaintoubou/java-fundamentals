@@ -1,6 +1,7 @@
 package lesson8;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class GameMain {
 	public static void main(String[] args) {
 		
 		String userInput;
-		final int NUMBER_OF_QUESTIONS = 5;
+		final int QUESTIONS_SET_TO = 5;
 		int index;
 		String question, answer;
 		
@@ -39,10 +40,13 @@ public class GameMain {
 		userInput = word.nextLine();
 		User.setUsername(userInput);
 		System.out.printf("Welcome %s\n", User.getUsername());
+		System.out.println();
+		showTime();
+		long startTime = System.currentTimeMillis(), elapsedTime;
 		
 		
 		
-		for (int i = 0 ; i  < NUMBER_OF_QUESTIONS; i++) {
+		for (int i = 0 ; i  < QUESTIONS_SET_TO; i++) {
 			
 			do {
 				Random random = new Random();
@@ -61,6 +65,7 @@ public class GameMain {
 			
 			if (answer.equalsIgnoreCase(userAnswer)) {
 				System.out.println("Correct Answer !");
+				User.setQuestionsAttempted();
 				User.setCorrectQuestions();
 				User.setTotalScore(10);
 				User.setAmount(1_500f);
@@ -68,24 +73,37 @@ public class GameMain {
 				//System.out.printf("reponses correctes: %d\n", User.getCorrectQuestions());
 			} else {
 				System.out.println("Wrong Answer !");
+				User.setQuestionsAttempted();
 				User.setTotalScore(-10);
 			}
+			
 			
 			if (User.getTotalScore() <= 0) {
 				break;
 			}
 				
 		}
+
+		showTime();
+		long endTime = System.currentTimeMillis();
+		
+		elapsedTime = (endTime - startTime)/1000;
 		
 		System.out.println("\n.....................................");
 		System.out.println(User.getUsername()+ " Statistics");
 		System.out.println(".....................................\n");
-		System.out.println("Total Questions Attempted: "+NUMBER_OF_QUESTIONS);
+		System.out.println("Time To Complete: " + elapsedTime+ " seconds");
+		System.out.println("Total Questions Attempted: "+User.getQuestionsAttempted());
 		System.out.println("Total Correct Answers: "+User.getCorrectQuestions());
 		System.out.println("Total Score: "+User.getTotalScore());
 		System.out.println("Money obtained: "+User.getPrizeMoney()+ " F CFA");
 		
 		word.close();
+	}
+	
+	public static void showTime() {
+		Calendar calendar = Calendar.getInstance();
+		System.out.printf("%1$tH:%1$tM:%1$tS\n",calendar);
 	}
 
 }
