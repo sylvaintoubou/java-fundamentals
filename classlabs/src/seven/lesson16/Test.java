@@ -64,7 +64,8 @@ public class Test {
 		System.out.println();
 	}
 	
-	public static boolean isPalindrom (StringBuilder build1, StringBuilder build2) {
+	public static boolean isPalindrom (StringBuilder build1, StringBuilder build2) {          
+		
 		return build1.equals(build2);
 	}
 
