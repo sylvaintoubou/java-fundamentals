@@ -13,53 +13,53 @@ public class User {
 		
 	}
 	
-	public static int getQuestionsAttempted() {
+	public int getQuestionsAttempted() {
 		return questionsAttempted;
 	}
 
 
-	public static void setQuestionsAttempted() {
+	public void setQuestionsAttempted() {
 		User.questionsAttempted = questionsAttempted + 1;
 	}
 	
-	public static float getAmount() {
+	public float getAmount() {
 		return amount;
 	}
 
-	public static void setAmount(float amount) {
+	public void setAmount(float amount) {
 		User.amount += amount;
 	}
 	
-	public static String getUserAnswer() {
+	public String getUserAnswer() {
 		return userAnswer;
 	}
 
-	public static void setUserAnswer(String userAnswer) {
+	public void setUserAnswer(String userAnswer) {
 		User.userAnswer = userAnswer;
 	}
 	
-	public static String getUsername() {
+	public String getUsername() {
 		return username;
 	}
-	public static void setUsername(String username) {
+	public void setUsername(String username) {
 		User.username = username;
 	}
-	public static int getTotalScore() {
+	public int getTotalScore() {
 		return totalScore;
 	}
-	public static void setTotalScore(int totalScore) {
+	public void setTotalScore(int totalScore) {
 		User.totalScore += totalScore;
 	}
-	public static float getPrizeMoney() {
+	public float getPrizeMoney() {
 		return totalScore * correctQuestions * amount;
 	}
-	public static void setPrizeMoney(float prizeMoney) {
+	public void setPrizeMoney(float prizeMoney) {
 		User.prizeMoney = prizeMoney;
 	}
-	public static int getCorrectQuestions() {
+	public int getCorrectQuestions() {
 		return correctQuestions;
 	}
-	public static void setCorrectQuestions() {
+	public void setCorrectQuestions() {
 		User.correctQuestions = correctQuestions + 1;
 	}
 	

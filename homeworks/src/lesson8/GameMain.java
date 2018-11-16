@@ -30,7 +30,7 @@ public class GameMain {
 		};
 		
 		int nbQuestions = questionnaire[0].length;
-		
+		User user = new User();
 		
 		
 		Scanner word = new Scanner(System.in);
@@ -38,8 +38,8 @@ public class GameMain {
 	
 		System.out.println("Please enter a username: ");
 		userInput = word.nextLine();
-		User.setUsername(userInput);
-		System.out.printf("Welcome %s\n", User.getUsername());
+		user.setUsername(userInput);
+		System.out.printf("Welcome %s\n", user.getUsername());
 		System.out.println();
 		showTime();
 		long startTime = System.currentTimeMillis(), elapsedTime;
@@ -65,38 +65,40 @@ public class GameMain {
 			
 			if (answer.equalsIgnoreCase(userAnswer)) {
 				System.out.println("Correct Answer !");
-				User.setQuestionsAttempted();
-				User.setCorrectQuestions();
-				User.setTotalScore(10);
-				User.setAmount(1_500f);
+				user.setQuestionsAttempted();
+				user.setCorrectQuestions();
+				user.setTotalScore(10);
+				user.setAmount(1_500f);
 				
 				//System.out.printf("reponses correctes: %d\n", User.getCorrectQuestions());
 			} else {
 				System.out.println("Wrong Answer !");
-				User.setQuestionsAttempted();
-				User.setTotalScore(-10);
+				user.setQuestionsAttempted();
+				user.setTotalScore(-10);
 			}
 			
 			
-			if (User.getTotalScore() <= 0) {
+			if (user.getTotalScore() < 0) {
+				System.out.println("End of the game! Your score is "+user.getTotalScore()+ " (negative)");
 				break;
 			}
 				
 		}
-
+		
+		System.out.println();
 		showTime();
 		long endTime = System.currentTimeMillis();
 		
 		elapsedTime = (endTime - startTime)/1000;
 		
 		System.out.println("\n.....................................");
-		System.out.println(User.getUsername()+ " Statistics");
+		System.out.println(user.getUsername()+ " Statistics");
 		System.out.println(".....................................\n");
 		System.out.println("Time To Complete: " + elapsedTime+ " seconds");
-		System.out.println("Total Questions Attempted: "+User.getQuestionsAttempted());
-		System.out.println("Total Correct Answers: "+User.getCorrectQuestions());
-		System.out.println("Total Score: "+User.getTotalScore());
-		System.out.println("Money obtained: "+User.getPrizeMoney()+ " F CFA");
+		System.out.println("Total Questions Attempted: "+user.getQuestionsAttempted());
+		System.out.println("Total Correct Answers: "+user.getCorrectQuestions());
+		System.out.println("Total Score: "+user.getTotalScore());
+		System.out.println("Money obtained: "+user.getPrizeMoney()+ " F CFA");
 		
 		word.close();
 	}
