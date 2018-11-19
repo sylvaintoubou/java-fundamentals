@@ -45,6 +45,7 @@ public class Test {
 		System.out.println(myInt3);
 		*/
 		
+		/*
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the word to be tested: ");
 		String userInput = scan.nextLine();
@@ -54,6 +55,10 @@ public class Test {
 		//StringBuilder comparer = new StringBuilder();
 		//System.out.println(reversed);
 		System.out.printf("Is %s a palindrom? %b", userInput, isPalindrom(pulled, reversed));
+		*/
+		
+		CalculateForce x = new CalculateForce();
+		System.out.println(x.getTheForceF());
 	
 	}
 	
