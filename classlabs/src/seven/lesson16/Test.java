@@ -58,7 +58,7 @@ public class Test {
 		*/
 		
 		CalculateForce x = new CalculateForce();
-		System.out.println(x.getTheForceF());
+		System.out.printf("%0,1f",x.getTheForceF());
 	
 	}
 	

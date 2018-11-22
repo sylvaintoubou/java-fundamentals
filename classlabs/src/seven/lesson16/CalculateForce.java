@@ -33,7 +33,7 @@ public class CalculateForce {
 	}
 
 	public double getTheForceF() {
-		return theWeight * GRAVITY * Math.cos(hillAngle);
+		return theWeight * GRAVITY * Math.abs(Math.cos(hillAngle));
 	}
 
 	public void setTheForceF(double theForceF){
