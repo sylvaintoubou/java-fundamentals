@@ -1,6 +1,8 @@
 package lesson8;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable{
 	
 	static String username, userAnswer;
 	static int totalScore;

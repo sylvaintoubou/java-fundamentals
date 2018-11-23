@@ -17,7 +17,7 @@ public class CardGame {
 		
 		
 		
-		// Populate the deck
+		/*// Populate the deck
 		for (int i = 2; i < deckOfCards.length; ) {
 			
 			for (int j = 0; j < faces.length; j++)
@@ -51,7 +51,7 @@ public class CardGame {
 		
 		User player1 = new User("Joe", 1);
 		
-		User player2 = new User("Jack", 2);
+		User player2 = new User("Jack", 2);*/
 		
 		
 		

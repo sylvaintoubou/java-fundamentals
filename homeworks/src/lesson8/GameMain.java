@@ -1,5 +1,6 @@
 package lesson8;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Random;
@@ -31,6 +32,7 @@ public class GameMain {
 		
 		int nbQuestions = questionnaire[0].length;
 		User user = new User();
+		ResumeGame save1 = new ResumeGame();
 		
 		
 		Scanner word = new Scanner(System.in);
@@ -70,6 +72,12 @@ public class GameMain {
 				user.setTotalScore(10);
 				user.setAmount(1_500f);
 				
+				System.out.println("\n\n\nPress X to save and exist");
+				String save = word.next();
+				if(save.equalsIgnoreCase("x")) {
+					break;
+				}
+				
 				//System.out.printf("reponses correctes: %d\n", User.getCorrectQuestions());
 			} else {
 				System.out.println("Wrong Answer !");
@@ -83,7 +91,18 @@ public class GameMain {
 				break;
 			}
 				
+				
 		}
+		
+		if(user.getTotalScore() > 0) {
+			try {
+				save1.saveGame(user);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
 		
 		System.out.println();
 		showTime();
@@ -107,5 +126,7 @@ public class GameMain {
 		Calendar calendar = Calendar.getInstance();
 		System.out.printf("%1$tH:%1$tM:%1$tS\n",calendar);
 	}
+	
+	
 
 }
