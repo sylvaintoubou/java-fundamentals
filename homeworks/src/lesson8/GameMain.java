@@ -7,9 +7,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GameMain {
+	
 
 	public static void main(String[] args) {
 		
+		/*
 		String userInput;
 		final int QUESTIONS_SET_TO = 5;
 		int index;
@@ -120,7 +122,84 @@ public class GameMain {
 		System.out.println("Money obtained: "+user.getPrizeMoney()+ " F CFA");
 		
 		word.close();
+		*/
+		
+		
+		Question question1 = new Question(1, "Who is the President of Cameroon ?");
+		Answers answer1_1 = new Answers('a', false,"Maurice Kamto" );
+		Answers answer1_2 = new Answers('b', true,"Paul Biya" );
+		Answers answer1_3 = new Answers('c', false,"Cabral Libii" );
+		Answers answer1_4 = new Answers('d', false,"Joshua Oshi" );
+		
+		Answers[] set1 = new Answers[4];
+		set1[0] = answer1_1;
+		set1[1] = answer1_2;
+		set1[2] = answer1_3;
+		set1[3] = answer1_4;
+		
+		QnA.addToMap(question1, set1);
+		
+		Question question2 = new Question(2, "How many administratives divisions does Cameroon have ?");
+		Answers answer2_1 = new Answers('a', false,"15" );
+		Answers answer2_2 = new Answers('b', false,"12" );
+		Answers answer2_3 = new Answers('c', false,"8" );
+		Answers answer2_4 = new Answers('d', true,"10" );
+		
+		Answers[] set2 = new Answers[4];
+		set2[0] = answer2_1;
+		set2[1] = answer2_2;
+		set2[2] = answer2_3;
+		set2[3] = answer2_4;
+		
+		QnA.addToMap(question2, set2);
+		
+		Question question3 = new Question(3, "Which of the following is the most populated town ?");
+		Answers answer3_1 = new Answers('a', false,"Yaounde" );
+		Answers answer3_2 = new Answers('b', false,"Bafoussam" );
+		Answers answer3_3 = new Answers('c', true,"Douala" );
+		Answers answer3_4 = new Answers('d', false,"Bamenda" );
+		
+		Answers[] set3 = new Answers[4];
+		set3[0] = answer3_1;
+		set3[1] = answer3_2;
+		set3[2] = answer3_3;
+		set3[3] = answer3_4;
+		
+		QnA.addToMap(question3, set3);
+		
+		Question question4 = new Question(4, "When did Cameroon gained its independance ?");
+		Answers answer4_1 = new Answers('a', false,"1950" );
+		Answers answer4_2 = new Answers('b', true,"1960" );
+		Answers answer4_3 = new Answers('c', false,"1961" );
+		Answers answer4_4 = new Answers('d', false,"1951" );
+		
+		Answers[] set4 = new Answers[4];
+		set4[0] = answer4_1;
+		set4[1] = answer4_2;
+		set4[2] = answer4_3;
+		set4[3] = answer4_4;
+		
+		QnA.addToMap(question4, set4);
+		
+		Question question5 = new Question(5, "What is the total area of Cameroon in square kilometers ?");
+		Answers answer5_1 = new Answers('a', false,"475 441" );
+		Answers answer5_2 = new Answers('b', true,"475 442" );
+		Answers answer5_3 = new Answers('c', false,"475 443" );
+		Answers answer5_4 = new Answers('d', false,"475 444" );
+		
+		Answers[] set5 = new Answers[4];
+		set5[0] = answer5_1;
+		set5[1] = answer5_2;
+		set5[2] = answer5_3;
+		set5[3] = answer5_4;
+		
+		QnA.addToMap(question5, set5);
+		QnA.printQuestionMap();
+		
+		
+		
 	}
+	
 	
 	public static void showTime() {
 		Calendar calendar = Calendar.getInstance();
