@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 
 public class ResumeGame {
 
-	public void saveGame(User user) throws IOExceptionity" {
+	public void saveGame(User user) throws IOException {
 			
 			File userFile = new File ("src/lesson8/save.ser");
 			if( !(userFile.exists())) {
