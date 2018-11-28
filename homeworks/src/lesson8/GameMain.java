@@ -194,7 +194,7 @@ public class GameMain {
 		set5[3] = answer5_4;
 		
 		QnA.addToMap(question5, set5);
-		QnA.printQuestionMap();
+		QnA.printQuestionMap(); b
 		
 		
 		

@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author masters
- *
- */
-module loopAssignments {
-}
