@@ -11,6 +11,7 @@
 
 package lesson7;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Factorial {
@@ -24,10 +25,17 @@ public class Factorial {
 		else return(num*factorial(num-1));
 		
 	}
+	
+	public static BigInteger factorial(BigInteger fact) {
+		if (fact.compareTo(BigInteger.ONE) <= 0) return BigInteger.ONE;
+		else return fact.multiply(factorial(fact.subtract(BigInteger.ONE)));
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+	
 		Scanner scanInt = new Scanner(System.in);
 		Scanner scanCont = new Scanner(System.in);
 		
@@ -35,7 +43,7 @@ public class Factorial {
 		
 		do {
 			System.out.println("Enter a number : ");
-			int user = scanInt.nextInt();
+			BigInteger user = BigInteger.valueOf(scanInt.nextLong());
 		
 			System.out.println(user+"! = "+factorial(user));
 		
@@ -48,6 +56,7 @@ public class Factorial {
 		if (again == 0) {
 			System.out.println("\n\nExiting!!!!");
 		}
+
 		
 	}
 

@@ -2,8 +2,22 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="lesson8.User"/>
+<fullyQualifiedTypeName name="seven.lesson24.InsertionSort"/>
+<fullyQualifiedTypeName name="java.lang.IllegalMonitorStateException"/>
+<fullyQualifiedTypeName name="seven.lesson24.SelectionSort"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="seven.lesson24.LinearSearch"/>
+<fullyQualifiedTypeName name="seven.lesson24.BinarySearch"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="seven.lesson24.MergeSort"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="seven.lesson25.Conversation"/>
+<fullyQualifiedTypeName name="seven.lesson25.MyRunnableThread"/>
+<fullyQualifiedTypeName name="seven.lesson25.MyThread"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
