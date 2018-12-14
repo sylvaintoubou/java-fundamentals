@@ -5,10 +5,10 @@ public class Player {
 	private String name;
 	private int column;
 	private int row;
-	private char seed;
+	private String seed;
 	private static char[][] board;
 	
-	public Player(String name, char seed) {
+	public Player(String name, String seed) {
 		this.name = name;
 		this.seed = seed;
 	}
@@ -37,12 +37,12 @@ public class Player {
 		this.row = row;
 	}
 
-	public char getSeed() {
+	public String getSeed() {
 		return seed;
 	}
 
-	public void setSeed(char seed) {
-		this.seed = seed;
+	public void setSeed(String string) {
+		this.seed = string;
 	}
 
 	public static char[][] getBoard() {
