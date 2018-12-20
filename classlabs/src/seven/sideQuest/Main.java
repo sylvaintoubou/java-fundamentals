@@ -1,5 +1,6 @@
 package seven.sideQuest;
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -12,8 +13,11 @@ public class Main {
 		//NumberToWords nWord = new NumberToWords();
 		//nWord.userInteraction();
 		
-		DNA dna1 = new DNA();
-		dna1.drawStrand(2);
+		//DNA dna1 = new DNA();
+		//dna1.drawStrand(2);
+		
+		Discriminant disc = new Discriminant();
+		disc.userInteraction();
 	}
 
 }

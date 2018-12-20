@@ -1,7 +1,9 @@
-package seven.sideQuest;
+package tic_tac_toe;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import seven.sideQuest.Player;
 
 public class TicTacToe {
 
