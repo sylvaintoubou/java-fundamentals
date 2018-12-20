@@ -16,8 +16,11 @@ public class Main {
 		//DNA dna1 = new DNA();
 		//dna1.drawStrand(2);
 		
-		Discriminant disc = new Discriminant();
-		disc.userInteraction();
+		//Discriminant disc = new Discriminant();
+		//disc.userInteraction();
+		
+		subscriberMTN2 user = new subscriberMTN2();
+		user.generateNumber();
 	}
 
 }
