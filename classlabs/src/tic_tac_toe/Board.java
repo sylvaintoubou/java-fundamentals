@@ -29,8 +29,9 @@ public class Board {
 		System.out.println("+---+---+---+");
 	}
 	
-	public void movement(Player p) {
+	public void movement(Player player) {
 		
 		
 	}
+
 }

@@ -19,7 +19,7 @@ public class Main {
 		//Discriminant disc = new Discriminant();
 		//disc.userInteraction();
 		
-		subscriberMTN2 user = new subscriberMTN2();
+		subscriberMTN user = new subscriberMTN();
 		user.generateNumber();
 	}
 

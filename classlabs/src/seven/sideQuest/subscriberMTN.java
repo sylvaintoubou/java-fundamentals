@@ -17,7 +17,8 @@ public class subscriberMTN {
 			for(int i = 0; i <= 9; i++) {
 				database[index] = i;
 				
-				for(int el : database) System.out.print(el);
+				for(int el : database) 
+					System.out.print(el);
 				System.out.println();
 				
 			}
