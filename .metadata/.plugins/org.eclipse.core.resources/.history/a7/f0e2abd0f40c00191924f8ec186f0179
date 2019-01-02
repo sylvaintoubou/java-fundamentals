@@ -1,0 +1,12 @@
+
+public class Player {
+	String playerName;
+	float points;
+	char seed;
+	public Player (String playerName, float points,char seed) {
+		super();
+		this.playerName=playerName;
+		this.seed=seed;
+		this.points=points;
+	}
+}

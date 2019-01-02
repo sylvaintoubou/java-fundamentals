@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class TicTacToe {
+	
+	public static void main(String[] args) {
+	System.out.println("Welcome on tic tac toe game");
+	
+		
+		
+	} 
+	
+	public int [][] choice(int [][] array){
+		System.out.println("choise your deplaement");
+		Scanner input=new Scanner(System.in);
+		
+		return array;
+		
+	}
+}

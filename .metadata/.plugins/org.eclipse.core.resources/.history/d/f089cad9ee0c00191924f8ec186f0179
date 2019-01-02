@@ -1,0 +1,8 @@
+
+public class TicTacToe {
+	char [][] board ;
+	int plays;
+	public Tictactoe(int boardSize) {
+		plays = boardSize*boardSize;
+	}
+}

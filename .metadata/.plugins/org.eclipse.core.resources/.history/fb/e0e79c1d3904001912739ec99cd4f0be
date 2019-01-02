@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class TicTacToe {
+	
+	public static void main(String[] args) {
+	System.out.println("Welcome on tic tac toe game");
+	
+	
+	System.out.println("---------------");
+	System.out.println("     |    |   ");
+	System.out.println("---------------");
+	System.out.println("     |    |   ");
+	System.out.println("---------------");
+	System.out.println("     |    |   ");
+	System.out.println("---------------");
+		
+		
+	} 
+	public String[] []move() {
+		Scanner input = new Scanner(System.in);
+		int fistChoise=input.nextInt();
+		String[][] i=new String[3][3];
+		String x = i[0][0];
+		System.out.println("make your move");
+		return i;
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TicTacToe {
+	
+	public static void main(String[] args) {
+	System.out.println("Welcome on tic tac toe game");
+	System.out.println("------------");
+	System.out.println("    |    |  ");
+	System.out.println("------------");
+	System.out.println("    |    |  ");
+	System.out.println("------------");
+	System.out.println("    |    |  ");
+	System.out.println("------------");
+		
+		
+	} 
+	
+}
