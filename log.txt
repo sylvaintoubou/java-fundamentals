@@ -1,0 +1,479 @@
+commit caf62d60fa038c81825ebeb87ffd1a7813463e89
+Author: sylvaintoubou <sylvain.toubou@gmail.com>
+Date:   Mon Jan 28 20:03:01 2019 +0100
+
+    added Name.txt to the repo
+
+commit 2b2d2a30ab0ddcf4d8fe0c59f791b06a3b9ede89
+Merge: 308ac87 9350ecf
+Author: Larry Akah H N <larryakah@gmail.com>
+Date:   Mon Jan 7 04:25:52 2019 -0800
+
+    Merge pull request #4 from 7AdvancedAcademy/ndemeyvan
+    
+    Ndemeyvan
+
+commit 9350ecfb061b85e565527829db7f40f2dff52c76
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Mon Jan 7 04:19:53 2019 -0800
+
+    Modified the TicTac Game and put file sin order
+
+commit 6172f8a78851491db652b6feb8d5b04c19935e6b
+Author: ndemeYvan <sevenacademy@r4.local>
+Date:   Wed Jan 2 13:36:08 2019 +0100
+
+    restore
+
+commit 56aeb53a31daaf2334e086e2fb4d40c1a52d6c3e
+Author: ndemeYvan <sevenacademy@r4.local>
+Date:   Wed Jan 2 13:16:03 2019 +0100
+
+    delete unwanted folder
+
+commit 878d231922cef6dcbd16bf9525ae57f7456644af
+Author: ndemeYvan <sevenacademy@r4.local>
+Date:   Wed Jan 2 13:11:34 2019 +0100
+
+    removed unwanted files in repo
+
+commit 308ac87b94c9e804d76280131cc309a2772456da
+Merge: 1fda5d0 cc79975
+Author: ndemeYvan <sevenacademy@r4.local>
+Date:   Wed Jan 2 12:24:16 2019 +0100
+
+    removed unwanted files in repo
+
+commit 1fda5d04881124379c0b7fa4ea336e508abb1be7
+Author: ndemeYvan <sevenacademy@r4.local>
+Date:   Wed Jan 2 12:23:07 2019 +0100
+
+    removed unwanted files in repo
+
+commit 2c5e01fbee5d2a98d72f97363f0ea6769d3c2795
+Author: ndemeYvan <sevenacademy@r4.local>
+Date:   Wed Jan 2 12:11:17 2019 +0100
+
+    Adding code to repo
+
+commit ea698842c589e7ffc4dd2101f1a5944091a4768b
+Author: ndemeYvan <sevenacademy@r4.local>
+Date:   Wed Jan 2 11:48:03 2019 +0100
+
+    new change
+
+commit 89068d0d139ac8424c694ae61678660c322ad5a7
+Author: ndemeYvan <sevenacademy@r4.local>
+Date:   Wed Jan 2 11:17:12 2019 +0100
+
+    changement
+
+commit cc799751e8ea365a40ca2239f3c05f68c9350b0f
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Wed Jan 2 02:07:09 2019 -0800
+
+    Added the recent changes to git
+
+commit 998a08f50acb436a44a6b8b3aa54c7e9cfe0d69e
+Merge: c12d223 212a861
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Mon Nov 19 13:13:18 2018 +0100
+
+    added gitignore files to the commit
+
+commit c12d223a72fe67a2361394cdefb8c3ac20d1d0c9
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Wed Nov 14 19:46:24 2018 +0100
+
+    Added implementation for lesson15 on Anonymous inner classes
+
+commit 212a861e256944334f6809ff7371ae7b53fcac57
+Merge: 3f493ff 87ba82b
+Author: tchoumi7 <44162448+tchoumi7@users.noreply.github.com>
+Date:   Fri Nov 9 13:30:47 2018 +0000
+
+    Merge pull request #3 from 7AdvancedAcademy/mas73rswork
+    
+    Mas73rswork
+
+commit 87ba82b86a44727f4ab6e83567660811de449ba9
+Merge: a261ea8 3767d84
+Author: tchoumi7 <44162448+tchoumi7@users.noreply.github.com>
+Date:   Fri Nov 9 13:19:46 2018 +0000
+
+    Merge pull request #2 from 7AdvancedAcademy/rolandworker
+    
+    Rolandworker
+
+commit 3767d84a609dc4f0a5b5cf80b4db3dc6391010ac
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Fri Nov 9 13:39:19 2018 +0100
+
+    uodated
+
+commit a261ea8f86db5e0afcd3ac02d72c17ddf80cb717
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Fri Nov 9 13:07:40 2018 +0100
+
+    Inheritance and Polymorphism
+
+commit 8a36bd77b0434d3932bc46723fe5c1d2ba612101
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Wed Nov 7 12:41:54 2018 +0100
+
+    Array Lists
+
+commit 7d9ad505d7d3e014ae20b07c5e6926e13fd23001
+Merge: 740e073 d52eb63
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Mon Nov 5 13:45:10 2018 +0100
+
+    Matrices assignment
+
+commit 740e0738da1a2dc0782c4e8640472386fe9572fc
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Mon Nov 5 13:34:12 2018 +0100
+
+    matrices
+
+commit d52eb632540fe75059fd7518259c71673ac8aa38
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Nov 5 13:29:25 2018 +0100
+
+    Java Format
+
+commit 8067fd12e5703924bdebe193149dc2d0edffc7a0
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Fri Nov 2 13:14:40 2018 +0100
+
+    Added course exercises
+
+commit 95359e6ec2eea9cb4ed3919f4029e3e0555bc959
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Fri Nov 2 00:37:59 2018 +0100
+
+    lesson 8 and 9 assignments
+
+commit 3f493ff2407c83ff448cff692ebd388e280292b1
+Author: Larry Akah H N <larryakah@gmail.com>
+Date:   Thu Nov 1 11:03:45 2018 +0100
+
+    Create README.md
+
+commit d22b41536ac444d01961c4bb7bbf6fae1892ce66
+Merge: f29f94c 8f6e134
+Author: Larry Akah H N <larryakah@gmail.com>
+Date:   Wed Oct 31 15:33:57 2018 +0100
+
+    Merge pull request #1 from 7AdvancedAcademy/mas73rswork
+    
+    Mas73rswork
+
+commit 8f6e1347bcef40d80284466c90f383bf426fbb4f
+Merge: c018cf0 f29f94c
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Wed Oct 31 15:19:23 2018 +0100
+
+    Added the identification to the main tree
+
+commit c018cf0722125cbbc5d763ff68f81a82d2ed616e
+Merge: 40e18de f86776c
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 31 13:49:38 2018 +0100
+
+    Lesson 9 : Arrays and matrices
+
+commit 40e18de2b431c1a572609cfc87ef9b8a709b8492
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 31 13:46:50 2018 +0100
+
+    Lesson 8: Arrays and matrices
+
+commit f29f94cd8e0fc175a7ac1b4c377ae5e48c21181f
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Wed Oct 31 12:48:52 2018 +0100
+
+    Added code for matrix display
+
+commit f86776c457c2f85fd91fee8f4df82a8cf791ae4f
+Merge: 3dc1e08 b8cf9a5
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Mon Oct 29 15:18:45 2018 +0100
+
+    lesson 7 assignments
+
+commit 3dc1e08cc94bbf045aca1d5948ced99f72e5f9db
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Mon Oct 29 15:09:59 2018 +0100
+
+    Fibonacci
+
+commit b8cf9a59b878caf2c42debc3190e9a85cc9ce0fe
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Mon Oct 29 13:57:21 2018 +0100
+
+    structures the code
+
+commit dfe6a1c8e3e38120d3c6e65d16b62b0e12798abc
+Author: ndemeyvan <44162391+ndemeyvan@users.noreply.github.com>
+Date:   Mon Oct 29 13:49:31 2018 +0100
+
+    Update User.java
+
+commit e820ed6cbf082fd5db9f43d2ffbfef0eadd2593f
+Author: ndemeyvan <44162391+ndemeyvan@users.noreply.github.com>
+Date:   Mon Oct 29 13:22:27 2018 +0100
+
+    Delete Loops.class
+
+commit b6cc13e60a05d2b9e1e62315c9ecdaee9db29943
+Author: ndemeyvan <44162391+ndemeyvan@users.noreply.github.com>
+Date:   Mon Oct 29 13:22:07 2018 +0100
+
+    user identity
+
+commit 6c171d974388b0fa1f859c0ae9bd82f86c33f89e
+Author: ndemeyvan <44162391+ndemeyvan@users.noreply.github.com>
+Date:   Mon Oct 29 13:13:59 2018 +0100
+
+    Add files via upload
+
+commit 428ba7c2f8fa7eb650b0981593c42680db61767a
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Mon Oct 29 13:04:30 2018 +0100
+
+    String format
+
+commit 29175cce9949b0460789432eb16ff3aa4a7956cf
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 29 12:59:23 2018 +0100
+
+    lesson 8 exercise
+
+commit 70c1e81f64a95aaf7084fedf526203a43fbfb03f
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Mon Oct 29 09:46:45 2018 +0100
+
+    Fibnacci: asking user input
+
+commit 5c0d6fdf6dc53d5f72248e34aeab668246efdc1e
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Sun Oct 28 20:34:17 2018 +0100
+
+    Lesson 7 assignments
+
+commit f10331641bf5f41e277ae557eea64c8a723b4310
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Fri Oct 26 12:59:48 2018 +0100
+
+    added factorial class
+
+commit b0ab7f236c259ffe98bb1420d19934e4c3c5a7ba
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Thu Oct 25 22:53:24 2018 +0100
+
+    submitting lesson 6 assignments
+
+commit 61a4c05a39582256d9c20c4405a393e369efe73e
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Thu Oct 25 21:29:08 2018 +0100
+
+    Calculator: updated the exponentiation
+
+commit fe5a389fb646b3ff2a655c5e663474e5a7381cfc
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 22 13:12:08 2018 +0100
+
+    Added the loop excercise
+
+commit c304b02645a3443009e3d1eb243a0dbbc0a0bd43
+Merge: 98938a8 fb1894e
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Fri Oct 19 13:38:03 2018 +0100
+
+    Creating a new repository
+
+commit 98938a83d6bf1f0271291241572a34b7933ddbb1
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Fri Oct 19 13:19:15 2018 +0100
+
+    Creating a new repository
+
+commit fb1894e0d2cc66a819d0a2bb78dbe38e0170f896
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Fri Oct 19 13:13:08 2018 +0100
+
+    added the author
+
+commit 2d2a6c3528c76b13a42c3532ace10936ccbb49a4
+Author: Masters <masters@Ms-Pro-18.local>
+Date:   Thu Oct 18 22:16:34 2018 +0100
+
+    submitting my coursework
+
+commit 27e13effca13adffb1d44811fb0ac8d2e55f2c54
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Wed Oct 17 13:41:42 2018 +0100
+
+    added .gitignore
+
+commit b3f360ce65f60b3865f264d97801abb0dbcbe295
+Merge: bd98d35 32dfcf2
+Author: ndemeyvan <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 17 13:27:37 2018 +0100
+
+    modification 2
+
+commit bd98d35fe92637b5948d5d3bf20a83aeb140d327
+Merge: 479e67e 24c698a
+Author: ndemeyvan <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 17 13:22:53 2018 +0100
+
+     modification of variable
+
+commit 32dfcf235c53c417fa07afaaa92484308c0ed281
+Merge: 4e730ad 24c698a
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 17 13:21:38 2018 +0100
+
+    variables and datatypes
+
+commit 4e730adf0cdeaf3ae4aa7feb7b98ea0de34c8d20
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 17 13:20:18 2018 +0100
+
+    variables and datatypes
+
+commit 4ec435bfa945ec5bb8a44523e914ea6fcd37ba66
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 17 13:15:38 2018 +0100
+
+    variables and datatypes
+
+commit 479e67e4cb7fe95db5d2b3e0816515cab4b1b262
+Author: ndemeyvan <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 17 13:09:48 2018 +0100
+
+    changement
+
+commit d15db62261a63dbfa6b069efb2acf61c3825cb77
+Author: ndemeyvan <sevenacademy@sevens-iMac.local>
+Date:   Wed Oct 17 13:04:16 2018 +0100
+
+    modification fondamental
+
+commit 24c698a6e3e422e10c207792cd7621f8aeacc8d9
+Merge: 52b4c30 2604382
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Wed Oct 17 13:00:51 2018 +0100
+
+    Fixed merge conflict once before pushing practical lesson number 3
+
+commit 52b4c30524502bbe42cdcfd5bf43b9ee26a9b2e2
+Author: larrytech7 <larryakah@gmail.com>
+Date:   Wed Oct 17 12:59:55 2018 +0100
+
+    Practical session number 3
+
+commit 260438297b88a7dd54657e31d25e02c6f1b1b9dc
+Author: ndemeyvan <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 06:05:07 2018 -0700
+
+    small modification
+
+commit 8b405c8a234f680e38711b25171137431970bce1
+Merge: 2110988 4369e2a
+Author: = <sevenacademy@sevens-iMac-2.local>
+Date:   Mon Oct 15 13:54:19 2018 +0100
+
+    Merge branch 'master' of https://github.com/7AdvancedAcademy/java-fundamentals
+
+commit 2110988485f1d95e007704b8756e3f6f2ae6df41
+Merge: 6de7561 cb88e30
+Author: = <sevenacademy@sevens-iMac-2.local>
+Date:   Mon Oct 15 13:53:57 2018 +0100
+
+    Fixed Merge conflicts by Akah
+
+commit 4369e2a761413d63e0448fe156c9eca66e414546
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 13:53:13 2018 +0100
+
+    Changed my name
+
+commit cb88e304bb68bfabf214c150428088357f0019d8
+Merge: 76df3d2 c168b69
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 13:51:01 2018 +0100
+
+    fix by Mister TCHOUMI
+
+commit c168b6974855ebadf681fa9429fc54a8f117b53f
+Merge: 32c3f4a fae8fe6
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 13:43:50 2018 +0100
+
+    update my name
+
+commit 76df3d2c075dfe3a28a60c8f7e83c284d14d3ceb
+Merge: d00ec65 440dec4
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 13:41:08 2018 +0100
+
+    fix conflict
+
+commit 32c3f4a707bf0a55dc57093f35e2b41a1200950f
+Merge: 381322a 440dec4
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 13:40:22 2018 +0100
+
+    update my name
+
+commit fae8fe61b93f7b11f41cf1e6df69ab56452bd15f
+Merge: ea9a704 440dec4
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 05:36:47 2018 -0700
+
+    fix conficts
+
+commit 381322acf59e5533eb50f6cf8dfa89f098d8512e
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 13:35:08 2018 +0100
+
+    updated my name
+
+commit ea9a704707dcfd2d4273bce3b573d6afcfff518a
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 05:26:22 2018 -0700
+
+    i add my name; Ndeme
+
+commit 6de7561bd0415c3524381aa88b9e0ea917da3e5a
+Author: = <sevenacademy@sevens-iMac-2.local>
+Date:   Mon Oct 15 13:25:25 2018 +0100
+
+    Updated to add only my name, Akah
+
+commit d00ec657b938a603e89edabbd3eda5b39f4b12c6
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 13:25:23 2018 +0100
+
+    update to add only my name TCHOUMI
+
+commit 440dec4bd0c38ba98d45d9f9affe51136d23deaf
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 13:24:46 2018 +0100
+
+    Added my name to the file
+
+commit b12be80e5df47bbd875e107d9b3f0dbe65ee259f
+Author: seven academy <sevenacademy@sevens-iMac.local>
+Date:   Mon Oct 15 12:47:55 2018 +0100
+
+    Added 3rd line in my method main
+
+commit 27c8d4f06e2df4b2ddd0c4349690f2d10163f8cb
+Author: = <sevenacademy@sevens-iMac-2.local>
+Date:   Mon Oct 15 12:02:39 2018 +0100
+
+    New update
