@@ -9,6 +9,7 @@ import server.AppServer;
 public class TicTacInit {
 
 	public static void main(String[] args) {
+		System.out.println(args[0]);
 		//startserver
 		AppServer server = new AppServer("Server", 3000);//.start();
 		try {
