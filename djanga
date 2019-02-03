@@ -1,0 +1,17 @@
+public class HelloWorld {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	   System.out.println("HELLO WORLD");
+	
+	   int result=(4+1)*2-5;
+	   System.out.println("the result in operation one give:"+result);
+	   
+	   
+	   int x=1+3+4+15,y;
+	   System.out.println("the result in opertion two give:"+x);
+	}
+
+}
